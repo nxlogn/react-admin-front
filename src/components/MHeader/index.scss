@@ -1,0 +1,24 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    .header-title{
+        margin:0;
+        font-size: 30px;
+        color: #666;
+    }
+    .header-user{
+        display: flex;
+        .current-time{
+            margin-right: 10px;
+        }
+        .weather{
+            margin-right: 10px;
+        }
+        .userinfo{
+            margin-right: 10px;
+        }
+        .userinfo button{
+            margin-left: 10px;
+        }
+    }
+}

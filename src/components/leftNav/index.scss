@@ -1,0 +1,50 @@
+.logo{
+    height: 32px;
+    .left-nav-link{
+        display: flex;
+        align-items: center;
+        height: 80px;
+    }
+    img{
+        width: 40px;
+        height: 40px;
+        margin: 0 10px;
+    }
+    h1{
+        font-size: 13px;
+        text-align: center;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+}
+
+// 菜单项文字左对齐
+.ant-menu {
+    .ant-menu-item {
+        text-align: left;
+        .ant-menu-title-content {
+            text-align: left;
+            display: inline-block;
+            vertical-align: middle;
+        }
+    } 
+    .ant-menu-submenu {
+        .ant-menu-submenu-title {
+            text-align: left;
+            
+            .ant-menu-title-content {
+                text-align: left;
+                display: inline-block;
+                vertical-align: middle;
+            }
+        }
+        .ant-menu-item {
+            text-align: left;
+            .ant-menu-title-content {
+                text-align: left;
+                display: inline-block;
+                vertical-align: middle;
+            }
+        }
+    }
+}
